@@ -1,0 +1,4 @@
+isFatherOf hasParent' 0.6
+isFatherOf hasAncestor' 0.4
+isFatherOf isBloodRelationOf' 0.2
+isFatherOf isRelationOf' 0.6
