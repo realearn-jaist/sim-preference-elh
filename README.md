@@ -6,11 +6,11 @@ based on the logic-based semantics of the Description Logic ELH (see the require
 
 The project is based on the [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html). 
 Its structure is organized as follows: 
-* core: TBD
-* batch-krss-dynamicprogramming-sim: TBD
-* batch-krss-dynamicprogramming-simpi: TBD
-* batch-krss-topdown-sim: TBD
-* batch-krss-topdown-simpi: TBD
+* core: This module contains all the implementation versions of our similarity measure for the description logic ELH, namely the top-down and bottom-up versions for both OWL-styled and KRSS-styled concept expressions. 
+* batch-krss-dynamicprogramming-sim: This implementation is an example of using the core module for creating a batch program for the bottom-up similarity measure for the KRSS-styled concept expressions. 
+* batch-krss-dynamicprogramming-simpi: This implementation is an example of using the core module for creating a batch program for the bottom-up similarity measure under preference for the KRSS-styled concept expressions.
+* batch-krss-topdown-sim: This implementation is an example of using the core module for creating a batch program for the top-down similarity measure for the KRSS-styled concept expressions. 
+* batch-krss-topdown-simpi: This implementation is an example of using the core module for creating a batch program for the top-down similarity measure under preference for the KRSS-styled concept expressions. 
 * batch-owl-dynamicprogramming-sim: TBD
 * batch-owl-dynamicprogramming-simpi: TBD
 * batch-owl-topdown-sim: TBD
